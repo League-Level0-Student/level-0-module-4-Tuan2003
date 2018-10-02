@@ -5,6 +5,14 @@
 
 public class StringMethods1 {
 	public static void main(String[] args) {
+	
+String s = "apple";
+
+for (int i = 0; i < s.length(); i++) {
+System.out.println(s.charAt(i));
+}
+
+System.out.println(s.length());
 		
 		// 1. Create a String variable and initialize it to whatever you want
 
