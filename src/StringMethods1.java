@@ -10,7 +10,11 @@ String s = "apple";
 
 for (int i = 0; i < s.length(); i++) {
 System.out.println(s.charAt(i));
+if (s.charAt(2) == 'p') {
+	
 }
+}
+
 
 System.out.println(s.length());
 		
