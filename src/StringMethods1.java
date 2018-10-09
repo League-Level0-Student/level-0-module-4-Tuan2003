@@ -10,13 +10,15 @@ String s = "apple";
 
 for (int i = 0; i < s.length(); i++) {
 System.out.println(s.charAt(i));
-if (s.charAt(2) == 'p') {
-	
+if (s.charAt(i) == 'l') {
+System.out.println("L is at index " +  i );	
 }
 }
+//for (int i = 0; i < (s.length()); i++) {
+//	System.out.println(s.charAt(i));	
+//}
 
 
-System.out.println(s.length());
 		
 		// 1. Create a String variable and initialize it to whatever you want
 

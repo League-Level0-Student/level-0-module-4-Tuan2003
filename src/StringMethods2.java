@@ -4,7 +4,7 @@
 
 public class StringMethods2 {
 	public static void main(String[] args) {
-		
+String r = "HeLLolOl";
 		// 1. Create a String variable and initialize it with
 		//    random upper and lower case characters.
 
