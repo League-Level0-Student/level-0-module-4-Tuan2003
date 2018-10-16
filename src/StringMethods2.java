@@ -1,10 +1,21 @@
+import java.util.Random;
+
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
 
 public class StringMethods2 {
 	public static void main(String[] args) {
-String r = "HeLLolOl";
+String r = "LoLWaTaReYoUdOiNg";
+Random ranD = new Random();
+System.out.println(r.toLowerCase());
+System.out.println(r.toUpperCase());
+System.out.println(r.substring(0,3));
+System.out.println(r.charAt(8));
+System.out.println(r.length());
+System.out.println(r.charAt(14));
+System.out.println(r.charAt(15));
+System.out.println(r.charAt(16));
 		// 1. Create a String variable and initialize it with
 		//    random upper and lower case characters.
 

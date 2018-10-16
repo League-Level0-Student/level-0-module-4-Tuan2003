@@ -10,10 +10,12 @@ String s = "apple";
 
 for (int i = 0; i < s.length(); i++) {
 System.out.println(s.charAt(i));
+
 if (s.charAt(i) == 'l') {
 System.out.println("L is at index " +  i );	
 }
 }
+
 //for (int i = 0; i < (s.length()); i++) {
 //	System.out.println(s.charAt(i));	
 //}
